@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Menú | Hamburguesería Artesanal</title>
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/styles.css" />
+  <script defer src="js/main.js"></script>
 </head>
 <body>
+
   <header>
     <nav>
       <a class="logo" href="index.html">🍔 Hamburguesería</a>
@@ -18,11 +20,36 @@
       </ul>
     </nav>
   </header>
-  <main class="section">
-    <h2>Menú Completo</h2>
-    <p>Descubre nuestras hamburguesas artesanales, papas y cervezas locales.</p>
-    <!-- Aquí puedes reutilizar la estructura del menú -->
-  </main>
-  <footer>© 2025 Hamburguesería Artesanal</footer>
+
+  <section class="section">
+    <h2>Nuestro Menú</h2>
+    <div class="menu-grid">
+      <div class="menu-item">
+        <img src="img/hamburguesa1.jpg" alt="Hamburguesa BBQ">
+        <h3>BBQ Bacon Burger</h3>
+        <p>Bacon crujiente, cheddar, cebolla caramelizada y salsa BBQ.</p>
+      </div>
+      <div class="menu-item">
+        <img src="img/hamburguesa2.jpg" alt="Hamburguesa Veggie">
+        <h3>Veggie Burger</h3>
+        <p>Deliciosa hamburguesa de garbanzos y espinaca, con guacamole.</p>
+      </div>
+      <div class="menu-item">
+        <img src="img/cerveza1.jpg" alt="Cerveza Lager">
+        <h3>Cerveza Lager</h3>
+        <p>Refrescante, suave y perfecta para cualquier hamburguesa.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Hamburguesería Artesanal</p>
+    <div class="social">
+      <i class="fab fa-facebook"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-whatsapp"></i>
+    </div>
+  </footer>
+
 </body>
 </html>
